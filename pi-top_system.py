@@ -3,8 +3,8 @@ from time import sleep
 import os
 import thingspeak
 
-channel_id = 1401311 # PUT CHANNEL ID HERE
-write_key  = 'J3O4ZXY34OTEAGAS' # PUT YOUR WRITE KEY HERE
+channel_id = 0000000 # PUT CHANNEL ID HERE
+write_key  = 'xxxxxxxxxxxxxxxx' # PUT YOUR WRITE KEY HERE
 channel = thingspeak.Channel(id=channel_id, api_key=write_key)
 
 bat = Pitop().battery
